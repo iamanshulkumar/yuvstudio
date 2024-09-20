@@ -1,7 +1,38 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { gsap } from "gsap";
+import { TextPlugin } from "gsap/TextPlugin";
+
+gsap.registerPlugin(TextPlugin);
 
 const BusinessSection = () => {
-  
+
+  useEffect(() => {
+    // Selecting the target element
+    const aboutHeading = document.querySelector("#bussniess");
+
+    // Define the GSAP animation for hover
+    const hoverAnimation = gsap.to(aboutHeading, {
+      duration: 1,
+      text: {
+        value: "WELCOME TO VFX", // Change to desired text
+      },
+      paused: true, // Pause the animation initially
+    });
+
+    // Add event listeners for mouse enter and leave
+    aboutHeading.addEventListener("mouseenter", () => hoverAnimation.play());
+    aboutHeading.addEventListener("mouseleave", () => hoverAnimation.reverse());
+
+    // Cleanup event listeners on component unmount
+    return () => {
+      aboutHeading.removeEventListener("mouseenter", () =>
+        hoverAnimation.play()
+      );
+      aboutHeading.removeEventListener("mouseleave", () =>
+        hoverAnimation.reverse()
+      );
+    };
+  }, []);
   return (
     <div className="container-fluid p-md-5 p-3 businesssec">
       <div className="row">
@@ -17,8 +48,8 @@ const BusinessSection = () => {
           <div className="text-white businessdetailstxt">We are a production company specializing in high-end VFX production for films, TV dramas, commercials, and music videos. Our approach is to work closely with the creators—directors, producers, and film crews—providing not only technical advice but also strong creative proposals and problem-solving capabilities, which are our key selling points.</div>
         </div>
       </div>
-      <div className="mt-5 mb-5">
-        <a href="">
+      <div className="mt-5">
+        <a href="/about">
           <button className='custombtns'>ABOUT DETAILS <i className="bi bi-arrow-right ms-3 text-info"></i></button>
         </a>
       </div>

@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from "./pages/ContactPage/Contact";
 import Home from "./pages/HomePage/Home";
 import About from "./pages/AboutPage/About";
+import Advertising from "./pages/Advertising/Advertising";
+import Gallery from "./pages/Videos/Gallery";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,6 +18,8 @@ root.render(
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="advertising" element={<Advertising />} />
+          <Route path="gallery" element={<Gallery />} />
         </Route>
       </Routes>
     </BrowserRouter>

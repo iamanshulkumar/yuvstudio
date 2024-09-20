@@ -4,17 +4,20 @@ import AboutSection from './AboutSection';
 import VideoSection from './VideoSection';
 import BusinessSection from './BusinessSection';
 import WorkSection from './WorkSection';
-import JoinSection from './JoinSection';
+import ContactForm from './ContactForm';
+import Infiniteslider from './Infiniteslider';
+// import Slidersection from './Slidersection';
 
 const Home = () => {
   return (
     <>
-      <HeroSection />
+      <HeroSection/>
       <AboutSection/>
       <VideoSection/>
       <BusinessSection/>
       <WorkSection/>
-      <JoinSection/>
+      <ContactForm/>
+      {/* <Infiniteslider/> */}
     </>
   )
 }

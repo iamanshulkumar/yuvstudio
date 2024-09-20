@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Tilt } from "react-tilt";
 
-let videoone = "assests/images/Sliderone.mp4";
-let videotwo = "assests/images/Sliderthree.mp4";
+let videoone = "assets/videos/demo-renders.mp4";
+let videotwo = "assets/videos/demo-renders.mp4";
 
 const VideoSection = () => {
   const videoRef = useRef(null);
@@ -76,6 +76,7 @@ const VideoSection = () => {
             src={currentVideo} // Dynamically change video src
           ></video>
         </div>
+      
       </Tilt>
     </div>
   );

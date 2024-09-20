@@ -1,12 +1,9 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
 gsap.registerPlugin(TextPlugin);
-const images = [
-  "assests/images/officeone.jpg",
-  "assests/images/officetwo.jpg",
-  "assests/images/officethree.jpg",
-];
+const imgsrc = "assets/images/office-banner.jpg";
+
 const JoinSection = () => {
   useEffect(() => {
     // Selecting the target element
@@ -16,7 +13,7 @@ const JoinSection = () => {
     const hoverAnimation = gsap.to(aboutHeading, {
       duration: 1,
       scale: 1.2, // Scale up for bounce effect
-      x:100,
+      x: 100,
       ease: "bounce.out", // Apply bounce easing
       paused: true, // Pause the animation initially
     });
@@ -38,29 +35,29 @@ const JoinSection = () => {
   return (
     <div className="container-fluid p-0 joinsec">
       <div className="row">
-        {images.map((imgsrc, index) => (
-          <div className="col-md-4 imgdivs" key={index}>
-            <img
-              src={imgsrc}
-              width="100%"
-              height="100%"
-              alt={`Gallery Image ${index}`}
-            />
-          </div>
-        ))}
-      </div>
-      <div className="joinusrow">
-        <div className="row">
-          <div className="col-md-4 text-white ps-5 joinusheadingtxt">JOIN US</div>
-          <div className="col-md-8 text-white ps-5 d-flex align-items-center justify-content-start joinustxt">
-            Yuvmedia Studio is the visual effect company
-            <br />
-            for the feature film, TV,
-            <br />
-            advertising and music industries
+        <div className="col-md-12"
+          style={{
+            backgroundImage: `url(${imgsrc})`, // Use background image
+            backgroundSize: "cover", // Cover the entire div
+            backgroundPosition: "center", // Center the image
+            height: "50vh", // Full height section
+            display: "flex",
+            alignItems: "center", // Vertically center content
+            justifyContent: "center", // Horizontally center content
+          }}>
+          <div className="" >
+            <div className="row d-flex">
+              <div className="col-md-6 text-white ps-5 joinusheadingtxt">JOIN US</div>
+              <div className="col-md-6 text-white ps-5 joinustxt">
+                Yuvmedia Studio is the visual effect company
+                for the feature film, TV,
+                advertising and music industries
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
     </div>
   );
 };

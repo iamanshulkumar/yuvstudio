@@ -6,6 +6,7 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.min.css";
+import "video-react/dist/video-react.css";
 // import { gsap } from "gsap";
 // import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Outlet } from "react-router-dom";

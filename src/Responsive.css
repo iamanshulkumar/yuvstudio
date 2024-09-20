@@ -1,141 +1,229 @@
-    @media screen and (max-width: 1024px) {
-    .maintext {
-        font-size: 200px;
-        line-height: 190px;
-    }
+@media (min-width: 1025px) and (max-width: 1400px) {
+  .headermain .logo img {
+    width: 120px !important;
+  }
 
-    .indiatxt {
-        font-size: 120px;
+  .workimg img {
+      height: 350px;
+      width: 260px;
     }
+  
 
-    .maintextbusiness {
-        font-size: 130px;
-    }
+  .carousel .list {
+    max-width: 60% !important;
+    left: 50%;
+  }
+  .carousel .list .item {
+    top: 18% !important;
+  }
+  .carousel .list .item .introduce .title {
+    font-size: 4em !important;
+  }
+  .carousel .list .item .introduce .topic {
+    font-size: 1em !important;
+  }
+  .videocustom {
+    height: 440px !important;
+  }
+  .reflection {
+    height: 430px !important;
+  }
 
-    .joinusheadingtxt,
-    .logoheadingfooter {
-        font-size: 130px;
-    }
+  .marqueetext {
+    font-size: 180px !important;
+    top: 49% !important;
+  }
+  .custombtnshero {
+    font-size: 18px !important;
+  }
 
-    .aboutheadings {
-        font-size: 140px;
-    }
+  .maintext {
+    font-size: 160px !important;
+    line-height: 150px !important;
+  }
 
-    .bannervideo,
-    .bannerreflection {
-        height: 500px;
-    }
-    }
+  .bannervideo {
+    width: 80% !important;
+    height: 580px !important;
+  }
 
-    @media screen and (max-width: 767px) {
-    header {
-        height: 80px;
-        justify-content: space-between;
-    }
+  .bannerreflection {
+    width: 80% !important;
+    height: 580px !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .maintext {
+    font-size: 200px;
+    line-height: 190px;
+  }
 
-    header nav a {
-        margin-left: 15px;
-        font-size: 14px;
-    }
-    .headermain .logo img {
-        width: 140px;
-    }
-    .nav-desktop {
-        display: none;
-    }
+  .indiatxt {
+    font-size: 120px;
+  }
 
-    .hamburger {
-        display: flex;
-    }
+  .maintextbusiness {
+    font-size: 130px;
+  }
 
-    .marqueetext {
-        font-size: 150px;
-        top: 30%;
-    }
+  .joinusheadingtxt,
+  .logoheadingfooter {
+    font-size: 80px;
+  }
 
-    .maintext {
-        font-size: 75px;
-        line-height: 70px;
-        font-weight: 400;
-    }
+  .aboutheadings {
+    font-size: 120px;
+  }
 
-    .indiatxt {
-        font-size: 80px;
-    }
+  .bannervideo,
+  .bannerreflection {
+    height: 500px;
+  }
+}
 
-    .details {
-        font-size: 12px;
-    }
-    .details_1 {
-        font-size: 12px;
-        margin-top: -50px;
-    }
-    .aboutsec {
-        height: 50vh;
-    }
-    .maintextbusiness {
-        font-size: 90px;
-        line-height: 90px;
-    }
+@media screen and (max-width: 767px) {
+  header {
+    height: 80px;
+    justify-content: space-between;
+  }
 
-    .businessdetailstxt {
-        font-size: 16px;
-        line-height: 35px;
-    }
+  header nav a {
+    margin-left: 15px;
+    font-size: 14px;
+  }
 
-    .joinusheadingtxt,
-    .logoheadingfooter {
-        font-size: 80px;
-    }
+  .hideInMobile {
+    display: none;
+  }
+  .hideInDesktop {
+    display: block;
+  }
 
-    .aboutheadings {
-        font-size: 90px;
-    }
-    .aboutheading {
-        font-size: 20px;
-    }
+  .marqueetext {
+    width: 100%;
+    font-size: 150px;
+    top: 63%;
+  }
+  .headermain .logo img {
+    width: 100px;
+  }
+  .nav-desktop {
+    display: none;
+  }
 
-    .aboutcontenthero {
-        font-size: 16px;
-        width: 90%;
-    }
+  .hamburger {
+    display: flex;
+  }
 
-    .phone a {
-        font-size: 32px;
-    }
+  .maintext {
+    font-size: 75px;
+    line-height: 70px;
+    font-weight: 400;
+  }
 
-    .bannervideo,
-    .bannerreflection {
-        height: 220px;
-    }
-    .videosec {
-        height: 40vh;
-    }
-    .custombtns,
-    .custombtnshero {
-        font-size: 20px;
-    }
+  .indiatxt {
+    font-size: 80px;
+  }
 
-    .footernav {
-        font-size: 25px;
-        line-height: 50px;
-    }
+  .details {
+    font-size: 10px;
+  }
+  .details_1 {
+    font-size: 12px;
+    margin-top: -50px;
+  }
+  .aboutsec {
+    height: 50vh;
+  }
+  .maintextbusiness {
+    font-size: 90px;
+    line-height: 90px;
+  }
 
-    .imgdivs {
-        width: 100px;
-        height: 300px;
-    }
-    .imgdivs img{
-        object-fit: cover;
-    }
+  .businessdetailstxt {
+    font-size: 16px;
+    line-height: 35px;
+  }
 
-    .demo-text .text {
-        font-size: 100px !important;
-    }
-    .contentdetailsabout {
-        padding: 60px;
-    }
+  .joinusheadingtxt,
+  .logoheadingfooter {
+    font-size: 80px;
+  }
 
+  .aboutheadings {
+    font-size: 80px;
+  }
+  .aboutheading {
+    font-size: 20px;
+  }
+
+  .aboutcontenthero {
+    font-size: 16px;
+    /* width: 90%; */
+  }
+
+  .phone a {
+    font-size: 22px;
+  }
+
+  .bannervideo,
+  .bannerreflection {
+    height: 220px;
+  }
+  .videosec {
+    height: 40vh;
+  }
+  .custombtns,
+  .custombtnshero {
+    font-size: 20px;
+  }
+
+  .footernav {
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .imgdivs {
+    width: 100px;
+    height: 300px;
+  }
+  .imgdivs img {
+    object-fit: cover;
+  }
+
+  .demo-text .text {
+    font-size: 100px !important;
+  }
+  .contentdetailsabout {
+    padding: 60px;
+  }
+  .animated-heading {
+    font-size: 3.5rem;
+  }
+
+  .herosection {
+    height: 50vh;
+    margin-top: -80px;
+  }
+
+  .slidercontent {
+    width: 0px !important;
+  }
+
+  .workimg img {
+    height: 500px;
+    width: 380px;
+  }
+
+  .slick-arrow {
+    display: none !important;
+}
+
+.contactheading {
+  font-size: 50px;
+  
+}
 
 
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
 gsap.registerPlugin(TextPlugin);
@@ -9,11 +9,11 @@ const AboutSection = () => {
 
     // Define the GSAP animation for hover
     const hoverAnimation = gsap.to(aboutHeading, {
-      duration: 1,
+      duration: 0.5,
       ease: "slow(0.7,0.7,false)",
       x: 100,
       text: {
-        value: "WE", // Change to desired text
+        value: "YMS", // Change to desired text
       },
       paused: true, // Pause the animation initially
     });
@@ -38,12 +38,12 @@ const AboutSection = () => {
         <div className="col-md-4 col-3">
           <div className="text-white aboutheading text-end">ABOUT</div>
         </div>
-        <div className="col-md-4 col-5">
+        <div className="col-md-4 col-4">
           <div className="text-white maintext" id="vfx">
             VFX
           </div>
         </div>
-        <div className="col-md-4 col-4 text-start d-flex align-items-center justify-content-start">
+        <div className="col-md-4 col-5 text-start d-flex align-items-center justify-content-start">
           <div className="text-white details">
             SINCE 2020
             <br />
@@ -57,7 +57,7 @@ const AboutSection = () => {
         <div className="text-white maintext text-end">COMPANY BASED</div>
       </div>
       <div className="row">
-        <div className="col-md-3 col-6 text-start d-flex align-items-end justify-content-end">
+        <div className="col-md-4 col-6 text-start d-flex align-items-end justify-content-end">
           <div className="text-white details_1">
             We deliver the heart-stirring
             <br />
