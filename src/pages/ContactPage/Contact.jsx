@@ -37,7 +37,7 @@ const Contact = () => {
               <div className="text-white">
                 <p>For inquiries about our services, please reach out to us at:</p>
                 <div className='phone'>
-                  Email Us at: <a href="mailto:support@yuvmediastudio.com" className='ms-3'>support@yuvmediastudio.com</a>
+                <i class="bi bi-envelope"></i><a href="mailto:support@yuvmediastudio.com" className='ms-2'>support@yuvmediastudio.com</a>
                 </div>
               </div>
               <hr className="hr" />

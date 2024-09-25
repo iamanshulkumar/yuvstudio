@@ -151,7 +151,8 @@
   }
 
   .aboutheadings {
-    font-size: 80px;
+    font-size: 50px;
+    line-height: 60px;
   }
   .aboutheading {
     font-size: 20px;
@@ -163,7 +164,7 @@
   }
 
   .phone a {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .bannervideo,

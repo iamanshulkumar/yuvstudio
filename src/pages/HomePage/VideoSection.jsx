@@ -6,11 +6,21 @@ let videotwo = "assets/videos/demo-renders.mp4";
 
 const VideoSection = () => {
   const videoRef = useRef(null);
+  const reflectionVideoRef = useRef(null);
   const [currentVideo, setCurrentVideo] = useState(videoone); // State to track the current video
   const [isFlipped, setIsFlipped] = useState(false); // State to track the flip
 
   useEffect(() => {
     const videoElement = videoRef.current;
+    const reflectionVideoElement = reflectionVideoRef.current;
+
+    // Function to sync the reflection video with the main video
+    const syncVideos = () => {
+      if (videoElement && reflectionVideoElement) {
+        reflectionVideoElement.currentTime = videoElement.currentTime;
+      }
+      requestAnimationFrame(syncVideos); // Continuously sync every frame
+    };
 
     // Play the video on hover and keep it playing
     const handlePlay = () => {
@@ -19,12 +29,17 @@ const VideoSection = () => {
           console.error("Video play was interrupted", error);
         });
       }
+      if (reflectionVideoElement) {
+        reflectionVideoElement.play().catch((error) => {
+          console.error("Reflection video play was interrupted", error);
+        });
+      }
     };
 
-    if (videoElement) {
-      // Ensure video plays when component mounts and on hover
-      handlePlay();
+    if (videoElement && reflectionVideoElement) {
+      handlePlay(); // Ensure videos are playing
       videoElement.addEventListener("mouseenter", handlePlay);
+      requestAnimationFrame(syncVideos); // Start the syncing loop
     }
 
     return () => {
@@ -69,6 +84,7 @@ const VideoSection = () => {
             src={currentVideo} // Dynamically change video src
           ></video>
           <video
+            ref={reflectionVideoRef} // Reference for reflection video
             className="bannerreflection"
             autoPlay
             muted
@@ -76,7 +92,6 @@ const VideoSection = () => {
             src={currentVideo} // Dynamically change video src
           ></video>
         </div>
-      
       </Tilt>
     </div>
   );

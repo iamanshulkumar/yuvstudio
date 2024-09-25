@@ -34,32 +34,51 @@ const Advertising = () => {
             </div>
 
             <div className="container my-md-5 py-md-5 my-3 text-white adsection">
-                <div className="row">
-                    <div className='text-center my-3'>
-                        <h2 className='text-white'>ANAMORPHIC</h2>
-                        <p className=''>
-                            Creates dynamic, captivating stories with the potential to go viral organically. The curved LED screen adds an extra layer of magic!
-                        </p>
-                        <p className=''>
-                            Anamorphic displays bring your imagination to life, showcasing stunning 3D visuals that leave onlookers in awe. These massive screens project hyper-realistic content that appears larger than life, effortlessly capturing and holding the audience’s attention.
-                        </p>
+                <div className="row py-3 py-md-5">
+                    <div className="col-md-6">
+                        <div className=' my-3'>
+                            <h2 className='text-white'>ANAMORPHIC</h2>
+                            <p className=''>
+                                Creates dynamic, captivating stories with the potential to go viral organically. The curved LED screen adds an extra layer of magic!
+                            </p>
+                            <p className=''>
+                                Anamorphic displays bring your imagination to life, showcasing stunning 3D visuals that leave onlookers in awe. These massive screens project hyper-realistic content that appears larger than life, effortlessly capturing and holding the audience’s attention.
+                            </p>
+                        </div>
                     </div>
-                    <div className='text-center my-3'>
-                        <h3>Why are brands moving to Anamorphic ?</h3>
-                        <p className=''>
-                            Traditional video commercials on social media are becoming less effective. What truly makes an impact now is engaging consumers directly with innovative and memorable experiences. Anamorphic displays allow brands to showcase their creativity in a way that leaves a lasting impression in the minds of their audience. This is why more and more brands are seeking out unique, non-generic solutions to stand out and stay memorable.
-                        </p>
+                    <div className="col-md-6">
+                        <img src="https://frankfurt.apollo.olxcdn.com/v1/files/c2ofhxhsnvz3-UZ/image;s=1000x700" alt="img" className='img-fluid rounded' />
                     </div>
-                    <div className='text-center my-3'>
-                        <h3>Features</h3>
-                        <p className=''>
-                            Anamorphic displays have the power to showcase hyper-realistic content, giving viewers the feeling that the visuals are coming right at them. With sharp, precise imagery and the added allure of a curved LED screen, the experience is mesmerizing for onlookers. These displays offer flexibility, allowing you to update and customize content to fit your campaign needs, ensuring your brand stands out every time.
+                    <div className="row py-5">
+                        <div className="col-md-6">
+                            <img src="https://www.groovejones.com/_next/image?url=https%3A%2F%2Fwebhost.groovejones.com%2Fwp-content%2Fuploads%2F2023%2F08%2F3d_billboards.jpg&w=1080&q=75" alt="img" className='img-fluid rounded' />
+                        </div>
+                        <div className="col-md-6">
+                            <div className=' my-3'>
+                                <h3>Why are brands moving to Anamorphic?</h3>
+                                <p className=''>
+                                    Traditional video commercials on social media are becoming less effective. What truly makes an impact now is engaging consumers directly with innovative and memorable experiences. Anamorphic displays allow brands to showcase their creativity in a way that leaves a lasting impression in the minds of their audience. This is why more and more brands are seeking out unique, non-generic solutions to stand out and stay memorable.
+                                </p>
+                            </div>
+                        </div>
 
-                        </p>
+                    </div>
+                    <div className="row py-3 py-md-5">
+                        <div className="col-md-6">
+                            <div className=' my-3'>
+                                <h3>Features</h3>
+                                <p className=''>
+                                    Anamorphic displays have the power to showcase hyper-realistic content, giving viewers the feeling that the visuals are coming right at them. With sharp, precise imagery and the added allure of a curved LED screen, the experience is mesmerizing for onlookers. These displays offer flexibility, allowing you to update and customize content to fit your campaign needs, ensuring your brand stands out every time.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <img src="https://creativereview.imgix.net/content/uploads/2023/05/Call-of-Duty.png" alt="img" className='img-fluid rounded' />
+                        </div>
                     </div>
                 </div>
 
-                <div className="row my-5">
+                <div className="row py-3 py-md-5">
                     <div className="col-md-6">
                         <div>
                             <h3>How will I measure the success of my 3D billboard campaign?</h3>
