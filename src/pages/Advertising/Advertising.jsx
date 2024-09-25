@@ -37,19 +37,24 @@ const Advertising = () => {
                 <div className="row">
                     <div className='text-center my-3'>
                         <h2 className='text-white'>ANAMORPHIC</h2>
-                        <p className=''>Creates unbelievably DYNAMIC STORIES that can go VIRAL organically. Curved Led simply adds to the MAGIC !</p>
                         <p className=''>
-                            Bringing your imagination to life and making people see realistic 3D visuals that will wow the onlooker. That is exactly how anamorphic displays work. They are massive displays that display realistic 3D content that becomes larger than life in order to capture the audience's attention.
+                            Creates dynamic, captivating stories with the potential to go viral organically. The curved LED screen adds an extra layer of magic!
+                        </p>
+                        <p className=''>
+                            Anamorphic displays bring your imagination to life, showcasing stunning 3D visuals that leave onlookers in awe. These massive screens project hyper-realistic content that appears larger than life, effortlessly capturing and holding the audience’s attention.
                         </p>
                     </div>
                     <div className='text-center my-3'>
-                        <h3>Why are brands moving to Anamorphic</h3>
-                        <p className=''>Having a generic video commercial and airing it on social media is becoming obsolete, but what stands out is going directly to the consumer and presenting your brand and creativity, making a direct impression in the minds of the consumer and also making their record and keeping it in their memory. That is the reason many brands are looking forward to something not so generic.
+                        <h3>Why are brands moving to Anamorphic ?</h3>
+                        <p className=''>
+                            Traditional video commercials on social media are becoming less effective. What truly makes an impact now is engaging consumers directly with innovative and memorable experiences. Anamorphic displays allow brands to showcase their creativity in a way that leaves a lasting impression in the minds of their audience. This is why more and more brands are seeking out unique, non-generic solutions to stand out and stay memorable.
                         </p>
                     </div>
                     <div className='text-center my-3'>
                         <h3>Features</h3>
-                        <p className=''>Anamorphic has the ability to showcase hyper-realistic content to the viewer which would make them feel they are coming right at them. It enables crisp content with high precision and having a curved LED screen would completely be mesmeric to the eyes of the onlooker. One can buy the anamorphic LEDs and keep changing the content as per their requirements and stand out in every campaign
+                        <p className=''>
+                            Anamorphic displays have the power to showcase hyper-realistic content, giving viewers the feeling that the visuals are coming right at them. With sharp, precise imagery and the added allure of a curved LED screen, the experience is mesmerizing for onlookers. These displays offer flexibility, allowing you to update and customize content to fit your campaign needs, ensuring your brand stands out every time.
+
                         </p>
                     </div>
                 </div>
@@ -58,11 +63,13 @@ const Advertising = () => {
                     <div className="col-md-6">
                         <div>
                             <h3>How will I measure the success of my 3D billboard campaign?</h3>
-                            <div>It's incredibly simple.</div>
+                            <div>It's quite simple.</div>
                             <p>
-                                The success of any OOH campaign banks strongly on the creative and the location of the site. However , with the advent of DOOH and programmatic OOH , the location does not hold a lot of importance as the PR factor comes into play and helps amplify the reach to a much larger extent digitally through social media. A 3D anamorphic billboard is another category which has been trending for the last year or so and is here to stay
+                                The success of any OOH campaign heavily relies on the creativity and the location of the display. However, with the rise of DOOH and programmatic OOH, location has become less crucial. Instead, the PR impact amplifies the reach, especially through social media. 3D anamorphic billboards have emerged as a trending category in the past year and are proving to be a lasting and powerful tool for brands.
                             </p>
-                            <button className='mainbutton'>Feeling Unsure</button>
+                            <a href="/contact">
+                                <button className='mainbutton'>Feeling Unsure</button>
+                            </a>
                         </div>
                     </div>
                     <div className="col-md-6 p-3">
@@ -81,7 +88,7 @@ const Advertising = () => {
                             <h3>How do 3D billboards adapt to different weather conditions and outdoor elements, and what maintenance is required to keep them in top shape?</h3>
 
                             <p>
-                                Anamorphic billboards employ high-end LED technology, with an exceptionally fine pixel pitch that can be as low as 0.9 in specific instances. Maintaining this advanced technology can be quite demanding due to the need for robust protection against all types of weather conditions. As a result, a high IP (Ingress Protection) rating becomes the primary choice when it comes to selecting LEDs for anamorphic billboards.
+                                Anamorphic billboards utilize cutting-edge LED technology, featuring an exceptionally fine pixel pitch that can be as low as 0.9 in certain cases. However, maintaining this advanced technology can be quite challenging, as it requires strong protection against various weather conditions. Therefore, selecting LEDs with a high Ingress Protection (IP) rating is essential to ensure durability and performance for anamorphic billboards in outdoor environments.
                             </p>
 
                         </div>

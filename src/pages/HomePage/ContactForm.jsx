@@ -43,6 +43,13 @@ const ContactForm = () => {
                             <input type="text" name="name" placeholder="Name *" required />
                             <input type="email" name="email" placeholder="Email *" required />
                             <input type="tel" name="phone" placeholder="Phone Number *" required />
+                            <select class="form-select " name="service" aria-label="Default select example" required>
+                                <option selected>Choose the service: *</option>
+                                <option value="Visual Effects">Visual Effects</option>
+                                <option value="CGI">CGI</option>
+                                <option value="3D Animation">3D Animation</option>
+                                <option value="Advertising">Advertising</option>
+                            </select>
                             <textarea name="message" placeholder="Message *" required></textarea>
                             <button type="submit">Submit</button>
                         </form>

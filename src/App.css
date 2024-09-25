@@ -45,7 +45,7 @@ header nav a {
 .hideInMobile {
   display: block;
 }
-.hideInDesktop{
+.hideInDesktop {
   display: none;
 }
 
@@ -96,7 +96,7 @@ header nav a {
   font-weight: bold;
   color: white;
   text-transform: uppercase;
-  
+
   font-family: "Fjalla One", sans-serif;
 }
 .indiatxt {
@@ -170,6 +170,12 @@ header nav a {
   font-weight: 500;
   font-family: "Poppins";
   line-height: 42px;
+}
+.businessdetailstxt p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins";
+  line-height: 22px;
 }
 .custombtns {
   background-color: transparent;
@@ -306,7 +312,7 @@ header nav a {
 .phone a {
   text-decoration: none;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
   font-family: "Fjalla One", sans-serif;
   transition: all 0.5s ease-in-out;
@@ -453,21 +459,21 @@ header nav a {
 }
 
 .contact-form input,
-.contact-form textarea {
+.contact-form textarea,
+.contact-form select {
   width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border: 2px solid rgb(255 255 255 / 24%);
-    border-radius: 14px;
-    background-color: #0000005e;
-    color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid rgb(255 255 255 / 24%);
+  border-radius: 14px;
+  background-color: #0000005e;
+  color: white;
 }
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
   color: #bbb;
 }
-
 
 .contact-form textarea {
   height: 100px;
@@ -495,10 +501,9 @@ header nav a {
   background-color: #04f0f8;
   color: black;
   border: 2px solid black;
-
 }
 
-  .herosection {
+.herosection {
   position: relative;
   width: 99.4vw;
   height: 100vh; /* Full height of the viewport */
@@ -566,7 +571,7 @@ header nav a {
   z-index: 10;
   font-family: "Fjalla One", sans-serif;
 }
-.adsection p{
+.adsection p {
   z-index: 10;
   font-family: "poppins";
 }
@@ -574,7 +579,7 @@ header nav a {
 .videobanner {
   width: 100%;
 }
-.workimg img{
+.workimg img {
   height: 430px;
   width: 320px;
 }

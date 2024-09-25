@@ -22,6 +22,9 @@ const Footer = () => {
                 <a href="/advertising" className="text-white">Advertising</a>
               </div>
               <div>
+                <a href="/gallery" className="text-white">Gallery</a>
+              </div>
+              <div>
                 <a href="/contact" className="text-white">Contact</a>
               </div>
             </div>

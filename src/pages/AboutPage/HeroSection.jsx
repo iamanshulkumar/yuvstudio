@@ -9,27 +9,56 @@ const HeroSection = () => {
           <div className="aboutheadings  mb-4  text-center">Our Story</div>
           <div className="col-lg-6 col-md-8 col-sm-10 col-12 p-md-5 px-4">
             <p className="aboutcontenthero">
-              In an industry where the demand for high-quality, imaginative visuals is ever-present, every project presents a unique challenge. Despite possessing advanced technical skills and extensive experience, creating something truly innovative can often feel like navigating through uncharted territory.
+              We believe that every shot we make should effectively advance the story's direction and provide memorable images that will stick with the audience long after they have finished viewing.</p>
+
+            <p className="aboutcontenthero">
+              Our greatest asset is our dedicated team of creative experts who collaborate to bring magic to life on film. Together we have met some of the most challenging deadlines while maintaining a high standard of quality.
+            </p>
+            <p className="aboutcontenthero">
+              <q className="text-white">
+                Cinema is truth 24 frames per second.</q> - Jean-Luc Godard.
+            </p>
+
+          </div>
+
+          <div className="col-lg-6 col-md-8 col-sm-10 col-12 p-md-5 px-4">
+
+            <p className="aboutcontenthero">
+              Bring enchantment to your images with our one-stop store for all things related to visual effects. Modify your existing elements or make realistic ones from the start, then combine them into your frame.
             </p>
 
             <p className="aboutcontenthero">
-              We acknowledge that the path to success is filled with obstacles. The journey can be daunting, and there are moments when the end seems out of reach, making it tempting to give up. However, at Yuvmedia Studio, we persevere.
+              Take total command of your visual effects pipeline with our VFX supervision services.
+            </p>
+
+            <p className="aboutcontenthero">
+              To save time and money while filming and post-production, our VFX supervisors assist you in planning every aspect of your production, starting in pre-production.
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="fs-1 text-white mb-4  text-center" style={{fontFamily: "Fjalla One" }}>Our Business</div>
+          <div className="aboutheadings  mb-4  text-center">Welcome to Yuvmedia Studio</div>
+          <div className="col-lg-6 col-md-8 col-sm-10 col-12 p-md-5 px-4">
+            <p className="aboutcontenthero">
+            Where creativity meets precision. We specialize in delivering high-end visual effects for films, television dramas, commercials, and music videos. Our commitment to excellence ensures that every frame is crafted with care and attention to detail.</p>
+
+            <p className="aboutcontenthero">
+            At Yuvmedia Studio, we believe in close collaboration with the creative visionaries—directors, producers, and film crews—who shape each project. We bring not only our technical expertise to the table but also innovative creative direction, ensuring that challenges are met with solutions and ideas that push the boundaries of what’s possible.
             </p>
           </div>
 
           <div className="col-lg-6 col-md-8 col-sm-10 col-12 p-md-5 px-4">
 
             <p className="aboutcontenthero">
-              Our mission is to craft unforgettable experiences for our audience and everyone involved in the filmmaking process. We strive to push boundaries and bring visionary ideas to life.
+            Our team thrives on solving production hurdles while providing cutting-edge visual effects, making your vision a vivid reality. Whether you're looking for seamless integration of VFX or bold, imaginative sequences, Yuvmedia Studio is your partner in visual storytelling.
             </p>
 
-            <p className="aboutcontenthero">
-              By bridging the gap between imagination and reality through cutting-edge VFX, we aim to deliver an unparalleled sense of wonder. We are committed to spreading this excitement across the globe.
+            <p className="aboutcontenthero fw-bold">
+            Creates transportive experiences that entertain, inform, and inspire. 
+
             </p>
 
-            <p className="aboutcontenthero">
-              With this vision driving us, we continue to create with passion and dedication every day.
-            </p>
           </div>
         </div>
       </div>
